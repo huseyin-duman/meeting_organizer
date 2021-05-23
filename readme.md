@@ -31,14 +31,32 @@ python main.py
 
 To reach web interface of meeting organizer type http://127.0.0.1:8080 to your browser.
 
-Since the database is empty there is no meeting to list. To add first meeting click to Create Meeting button. Fill all
-fields to create a new meeting and click the submit button. It is important that start time of the meeting is later than now.
+
+
+
+Since the database is empty there is no meeting to list.
+
+![1](https://user-images.githubusercontent.com/83553898/119269677-8d819100-bc01-11eb-85a7-f6160e09b064.JPG)
+
+To add first meeting click to Create Meeting button.
+
+![2](https://user-images.githubusercontent.com/83553898/119269696-aab65f80-bc01-11eb-8699-bc8d1f0a6261.JPG)
+
+Fill all fields to create a new meeting and click the submit button. 
+
+![3](https://user-images.githubusercontent.com/83553898/119269699-b013aa00-bc01-11eb-871e-3fcf79ff177f.JPG)
+
+It is important that start time of the meeting is later than now.
 Also end time of the meeting must be later than start time. When you submit a valid meeting you will be directed to index page
 where you will see the list of the meetings.
+
+![4](https://user-images.githubusercontent.com/83553898/119269702-b43fc780-bc01-11eb-82aa-755c6dadb25c.JPG)
 
 Now, you can add a new meeting or see the details of meeting. When you click on the meeting details will be available on the page.
 You can edit meeting information by clicking on edit meeting. After your edit finish you will be again directed to index page.
 You can also delete the meeting by clicking delete meeting, or you can just go back to index page by clicking return meeting list.
+
+![5](https://user-images.githubusercontent.com/83553898/119269703-b7d34e80-bc01-11eb-9af2-70856dcdb36f.JPG)
 
 ## main.py:
 Firstly import relevant libraries.
