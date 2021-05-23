@@ -14,7 +14,7 @@ py -m venv env
 .\env\Scripts\activate
 pip install -r requirements.txt
 ```
-To have a clear databese delete databese.db from your folder and run inti_db.py
+To have a clear databese delete database.db from your folder and run inti_db.py
 
 ```bash
 python init_db.py
